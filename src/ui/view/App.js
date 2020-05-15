@@ -11,7 +11,7 @@ const App = () => {
 
   return (
     <Container>
-      <Retail />
+      <Retail tradeData={tradeData}/>
       <Map tradeData={tradeData}/>
     </Container>
   );
